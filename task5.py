@@ -1,0 +1,16 @@
+a = [2, 3, 4, 5, 6]
+print(a)
+a.insert(4,7)
+print(a)
+del a[1]
+print(a)
+b = max(a)
+print(b)
+c = min(a)
+print(c)
+tup = ('ab','bc','cd','de','ef')
+print(tup)
+new_tup = tuple(reversed(tup))
+print(new_tup)
+tulis = list(tup)
+print(tulis)
